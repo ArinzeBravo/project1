@@ -1,0 +1,60 @@
+@-webkit-keyframes BRAVO {
+    0% {
+        background-color: blue;
+        background-image: url(1663354621331.jpg);
+        background-size: contain;
+        left: 0px;
+        -webkit-transform: rotate(360deg);
+    }
+    20% {
+        background-image: url(1673505116791.jpg);
+        background-size: contain;
+        right: 50px;
+        -webkit-transform: rotate(180deg);
+    }
+    40% {
+        background-image: url(35590-3-red-flower-frame-free-download.png);
+        background-size: contain;
+        top: 70px;
+        s
+    }
+    60% {
+        background-image: url(IMG-20230109-WA0000.jpg);
+        background-size: contain;
+        left: 40px;
+    }
+    80% {
+        background-image: url(FB_IMG_1609057508906.jpg);
+        background-size: contain;
+        bottom: 60px;
+        -webkit-transition: height 2s, width 3s;
+    }
+}
+
+div {
+    height: 45%;
+    width: 55%;
+    border: 15px;
+    border-style: ridge;
+    border-radius: 5px;
+    text-align: center;
+    text-decoration: dotted;
+    color: red;
+    animation: BRAVO infinite 10s alternate-reverse;
+    animation-play-state: running;
+}
+
+p {
+    width: 40%;
+    height: 20%;
+    border-style: ridge;
+    border-radius: 25px;
+    border-image: url(34906-5-gold-flower-frame-transparent.png) 80 fill;
+    color: red;
+    -webkit-transition: height 3s, width 4s, 20s;
+}
+
+p:hover {
+    width: 40%;
+    height: 20%;
+}
